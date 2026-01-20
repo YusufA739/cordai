@@ -2,7 +2,7 @@ import openai,discord
 
 client = discord.Client(intents=discord.Intents.all())
 #Replace with your bot token and channel ID
-information = open("C:/Users/Yusuf/work/pyth/bots/tokens/messenger pigeon.txt","r")
+information = open("tokens/messenger pigeon.txt","r")
 information = information.readlines().strip("\n")
 DISCORD_TOKEN = information[0]
 
